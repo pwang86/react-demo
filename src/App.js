@@ -31,7 +31,7 @@ export default App;
  */
 
  // Demo 2. css animation
- import React, {useState} from "react";
+ /* import React, {useState} from "react";
  import classNames from "classnames";
 
  import styles from "./styles.css";
@@ -50,4 +50,4 @@ export default App;
    );
  }
 
- export default App;
+ export default App; */
