@@ -6,7 +6,7 @@
   height: 100px;
 } */
 /* Demo 2. css animation */
-html{
+/* html{
   min-height:100%;
   display: flex;
 }
@@ -30,4 +30,4 @@ button{
 
 .animate.grow{
   transform:scale(1.5);
-}
+} */
