@@ -31,23 +31,23 @@ export default App;
  */
 
 // Demo 2. css animation
-import React, { useState } from "react";
-import classNames from "classnames";
+/* import React, {useState} from "react";
+ import classNames from "classnames";
 
-import styles from "./styles.css";
+ import styles from "./styles.css";
 
-const App = () => {
-  const [animate, setAnimate] = useState(false);
-  const handleClick = () => setAnimate(!animate);
+ const App = () =>{
+   const [animate, setAnimate] = useState(false);
+   const handleClick =() => setAnimate(!animate);
 
-  return (
-    <button
-      onClick={handleClick}
-      className={classNames(styles.animate, animate && styles.grow)}
-    >
-      Grow this link
-    </button>
-  );
-};
+   return(
+     <button onClick={handleClick}
+     className={classNames(
+       styles.animate, animate && styles.grow
+     )}>
+       Grow this link
+     </button>
+   );
+ }
 
-export default App;
+ export default App; */
