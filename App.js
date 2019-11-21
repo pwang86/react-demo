@@ -28,7 +28,7 @@ class App extends React.Component {
 }
 
 export default App; */
-
+/* 
 // Demo 2. css animation
 import React, { useState } from "react";
 import classNames from "classnames";
@@ -47,6 +47,23 @@ const App = () => {
       Grow this link
     </button>
   );
-};
+}; */
+
+// Demo 3. Hooks
+import React, { useState, useEffect } from "react";
+function App() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
 
 export default App;
